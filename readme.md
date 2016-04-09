@@ -19,6 +19,7 @@ If you're already up and running with most of the usual Node ecosystem tools thi
 * Install [Gulp](http://gulpjs.com/): `npm install -g gulp`.
 * Install [Bower](http://bower.io/#install-bower): `npm install -g bower`.
 * Install all NodeJS dependencies with `npm install` and then all packages with `bower install`.
+* Edit line 11 of _gulpfile.js_ to set the name of your theme folder.
 * Run `gulp watch` while you develop the theme. This will continuously update the theme in the _dist_ folder as you save your changes in _src_.
 * Run `gulp build` when you are ready to build a production ready version of your theme.
 
