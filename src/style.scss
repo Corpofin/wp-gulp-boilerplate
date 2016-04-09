@@ -1,0 +1,22 @@
+/*!
+Theme Name: wp-gulp-boilerplate
+Theme URI: https://github.com/stuartwiener/wp-gulp-boilerplate
+Author: Stuart Wiener
+Author URI: http://stuartwiener.com
+Description: Wordpress Gulp Boilerplate
+Version: 1.0.0
+License: None
+License URI:
+Tags:
+Text Domain:
+Domain Path:
+*/
+
+// Configuration and setup
+@import "scss/config";
+
+// Everything else
+@import "scss/typography";
+@import "scss/grids";
+@import "scss/modules";
+@import "scss/pages";
