@@ -1,0 +1,8 @@
+## Mac
+.DS_Store
+
+## Development
+.sass-cache
+bower_components
+node_modules
+vendor
