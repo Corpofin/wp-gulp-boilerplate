@@ -2,7 +2,7 @@
 
 This is a basic template to use Gulp for developing Wordpress themes. You get all the usual goodness of Gulp and Bower for managing dependencies and  packages. It comes setup with:
 
-- SASS(SCSS)
+- SASS (SCSS)
 - CSS autoprefixing
 - CSS minification
 - JavaScript minification
@@ -19,12 +19,9 @@ If you're already up and running with most of the usual Node ecosystem tools thi
 * Install [Gulp](http://gulpjs.com/): `npm install -g gulp`.
 * Install [Bower](http://bower.io/#install-bower): `npm install -g bower`.
 * Install all NodeJS dependencies with `npm install` and then all packages with `bower install`.
-
-## Gulp
-
-* Run `gulp watch` while you develop the theme. This will continuously update the theme in the _dist_ folder as you save your changes.
-* Run `gulp build` when you are ready to build the production ready version of your theme.
+* Run `gulp watch` while you develop the theme. This will continuously update the theme in the _dist_ folder as you save your changes in _src_.
+* Run `gulp build` when you are ready to build a production ready version of your theme.
 
 This setup assumes that you will build your theme in directory completely separate to your Wordpress installation. In this case, you will probably want to symlink the theme folder in _dist_ to your themes directory of Wordpress, so that you can check your theme as you build it. You can do this with `ln -s build_directory wordpress_themes_directory`, where _build_directory_ is your theme directory created in _dist_ and _wordpress_themes_dirctory_ is your themes directory in your instance of Wordpress.
 
-The gulp implementation doesn’t include LiveReload or Browser Sync because of the decoupled nature of Wordpress themes and Wordpress itself. You will have to configure your Wordpress server if you want.
+The gulp implementation doesn’t include LiveReload or Browser Sync because of the decoupled nature of Wordpress themes and Wordpress itself. You will need to configure your Wordpress server if you want that.
