@@ -67,7 +67,7 @@ if ( ! function_exists( 'wpgulpboilerplate_entry_taxonomies' ) ) :
  */
 function wpgulpboilerplate_entry_taxonomies() {
 	$categories_list = get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'wpgulpboilerplate' ) );
-	if ( $categories_list && wpgulpboilerplate_categorized_blog() ) {
+	if ( $categories_list ) {
 		printf( '<span class="cat-links"><span class="screen-reader-text">%1$s </span>%2$s</span>',
 			_x( 'Categories', 'Used before category names.', 'wpgulpboilerplate' ),
 			$categories_list

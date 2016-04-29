@@ -54,4 +54,4 @@
 
 		</header><!-- .site-header -->
 
-		<main class="site-content" role="main">
+		<main id="content" class="site-content" role="main">
