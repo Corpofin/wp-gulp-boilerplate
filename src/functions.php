@@ -73,6 +73,12 @@ function wpgulpboilerplate_javascript_detection() {
 }
 add_action( 'wp_head', 'wpgulpboilerplate_javascript_detection', 0 );
 
+// Enqueue Styles and Scripts
+function wpgulpboilerplater_enqueue_scripts() {
+	wp_enqueue_style( 'style', get_stylesheet_uri() );
+}
+add_action( 'wp_enqueue_scripts', 'wpgulpboilerplater_enqueue_scripts');
+
 /**
  * Custom template tags for this theme.
  */
